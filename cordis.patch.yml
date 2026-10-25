@@ -1,0 +1,5 @@
+# dsh-census bundle patch: registers the census plugin over the profile root.
+# The loader resolves `dsh-census` to this package's main export (the plugin).
+- insert:
+    - id: census
+      name: dsh-census

@@ -1,0 +1,7 @@
+node_modules/
+lib/
+*.tgz
+*.log
+
+# Internal research notes stay out of the public repo
+research/
